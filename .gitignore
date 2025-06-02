@@ -1,0 +1,54 @@
+# Python specific
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.sqlite3
+db.sqlite3
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+# IDE specific
+.idea/
+.vscode/
+*.swp
+*~
+
+# Logs and runtime files
+*.log
+*.pid
+*.gz
+*.out
+*.bak
+
+# System-specific files
+.DS_Store
+Thumbs.db
+
+# Python virtual environments and pipenv/poetry files
+pip-log.txt
+pip-delete-this-directory.txt
+poetry.lock
+Pipfile
+Pipfile.lock
+
+# Cache files
+.cache/
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Test coverage
+htmlcov/
+.coverage
+.tox/
+
+# Static files (optional, if auto-generated)
+staticfiles/
+media/
