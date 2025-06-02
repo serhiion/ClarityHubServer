@@ -1,0 +1,9 @@
+services:
+  client_service_backend:
+    container_name: client_service_backend
+    restart: always
+    build:
+      context: ./
+      dockerfile: client_service_backend/Dockerfile
+    ports:
+      - "8000:8000"
